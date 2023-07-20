@@ -1408,7 +1408,7 @@ ul {
   transition: var(--main-transition);
 }
 .footer .box .links li a::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free", fantasy;
   content: "\f124";
   font-weight: 900;
   margin-right: 10px;
@@ -1475,5 +1475,5 @@ ul {
 
 @keyframes flashing {0%,40% {opacity: 1;}100% {opacity: 0;width: 200%;height: 200%;}}
 
-@keyframes change-background {0%,100% {background-image: url("../imgs/contacts-background01.jpg");} 50% {background-image: url("../imgs/contacts-background02.jpg");}}
+@keyframes change-background {0%,100% {background-image: url("../img/fblack.jpg");} 50% {background-image: url("../img/fblack.jpg");}}
 /* End Animation */
