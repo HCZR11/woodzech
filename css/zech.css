@@ -7,38 +7,42 @@ html, body {
   font-family: 'Josefin Sans', sans-serif;
   box-sizing: border-box;
 
+
 }
+
 root {
-    --main-color: #F0EDE1;
-    --colorText: #2C2D2A;
-    --text-color: #4a6870;
-    --main-transition: 0.3s;
-    --main-padding-top: 100px;
-    --main-padding-bottom: 100px;
-    --section-background: rgba(241, 226, 226, 0.68);
+  --main-color: #F0EDE1;
+  --colorText: #2C2D2A;
+  --text-color: #4a6870;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: rgba(241, 226, 226, 0.68);
 }
+
 .main-title {
-    text-transform: uppercase;
-    margin: 0 auto 80px;
-    border: 3px double var(--colorText);
-    padding: 10px 20px;
-    font-size: 30px;
-    width: fit-content;
-    position: relative;
-    z-index: 1;
-    transition: var(--main-transition);
+  text-transform: uppercase;
+  margin: 0 auto 80px;
+  border: 3px double var(--colorText);
+  padding: 10px 20px;
+  font-size: 30px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  transition: var(--main-transition);
 }
 
 
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
+
 a {
   text-decoration: rgba(245, 245, 245, 0.35);
 }
@@ -178,7 +182,7 @@ scale(1.0, 1.0);
 .content {
   padding: 5% 10%;
   text-align: justify;
-  background-color: var(--section-background);
+  background-color: #F0EDE1;
 }
 
 
@@ -234,17 +238,20 @@ scale(1.0, 1.0);
 
 }
 
-.container{
+.container {
   display: flex;
   flex-basis: 50%;
   justify-content: left;
+  background-color: #ffffff;
+
 }
+
 .feature {
   display: flex;
   max-width: 800px;
   margin: 20px;
   padding: 20px;
-  background-color: rgba(241, 226, 226, 0.68); /* Fundal semi-transparent pentru caracteristică */
+  background-color: #F0EDE1; /* Fundal semi-transparent pentru caracteristică */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -263,3 +270,106 @@ scale(1.0, 1.0);
   height: auto;
 
 }
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: #cccccc;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info, .social-links, .legal-info {
+  flex: 1;
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.contact-info p, .social-links a, .legal-info a {
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.contact-info p:hover, .social-links a:hover, .legal-info a:hover {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* ... Codul existent ... */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem;
+  background: #F0EDE1;
+  text-align-all: center;
+}
+
+.about-image img {
+  max-width: 40%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.about-description {
+  flex: 1;
+  padding: 1rem;
+  margin-left: -55rem;
+}
+
+.about-description h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-description p {
+  line-height:1;
+}
+
+/* ... Codul existent ... */
