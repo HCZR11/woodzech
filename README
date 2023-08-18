@@ -1,2 +1,21 @@
 
 It is about 2 responsive web pages made for a friend who is passionate about woodworking in any form! :)
+
+#
+To create these web pages I was inspired by several sites that deal with such things and I used webscraping using "robots.txt" to see where I have permission :)
+
+
+import requests
+
+source = requests.get('https://www.blacktailstudio.com/blog/a-table-with-good-jeans').text
+
+soup = BeautifulSoup(source, 'lxml')
+
+article = soup.find('article')
+
+print(article.prettify())
+# headline = article.h2.a.text
+# print(headline)
+
+# summary = article.find('div', class_='row sqs-row').p.text
+# print(summary)
