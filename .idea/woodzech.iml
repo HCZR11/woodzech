@@ -6,5 +6,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="swiper" level="application" />
+    <orderEntry type="library" name="jquery-3.6.1" level="application" />
+    <orderEntry type="library" name="jquery-2.1.4" level="application" />
+    <orderEntry type="library" name="6bd6c771de" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="gsap" level="application" />
   </component>
 </module>
