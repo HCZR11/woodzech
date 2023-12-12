@@ -1,21 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hefzech</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/wood.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="icon" href="../img/logo4775.png">
+</head>
+<body>
+<!-- Start Header -->
+<div class="header" id="header">
+  <div class="container">
+    <a href="" class="logo"><i class=""></i>Hefzech</a>
+    <ul class="main-nav">
+      <li><a href="detail.html">HefBlog</a></li>
 
-It is about 2 responsive web pages made for a friend who is passionate about woodworking in any form! :)
+      <li>
+        <a href="#">Galerie <i class="fa-solid fa-chevron-down"></i></a>
+        <!-- Start Megamenu -->
+        <div class="mega-menu">
+          <div class="image">
+            <img src="../img/ms.jpg" alt="img">
+          </div>
+          <ul class="links">
+            <li>
+              <!--                  <a href="#testimonials"><i class="far fa-comments fa-fw"></i> Testimonials</a>-->
+            </li>
+            <li>
+              <!--                  <a href="#team"><i class="far fa-user fa-fw"></i> Team Members</a>-->
+            </li>
+            <!--            <li>-->
+            <!--              <a href=""><i class=""></i> </a>-->
+            <!--            </li>-->
+            <!--            <li>-->
+            <!--              <a href=""><i class=""></i> </a>-->
+            <!--            </li>-->
+            <li>
+              <a href="#work-steps"><i class="far fa-clipboard fa-fw"></i> Descriere</a>
+            </li>
+          </ul>
+          <ul class="links">
+            <li>
+              <a href="album.html.html"><i class="fas fa-server fa-fw"></i> Album Foto</a>
+            </li>
+            <li>
+              <a href="diverse.html"><i class="fas fa-server fa-fw"></i> Diverse</a>
+            </li>
+            <li>
+              <a href="veioze.html"><i class="fas fa-server fa-fw"></i> Veioze</a>
+            </li>
+            <li>
+              <a href="#videos"><i class="far fa-play-circle fa-fw"></i> Video</a>
+            </li>
+            <li>
+              <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Statistici</a>
+            </li>
+            <li>
+              <a href="#contacts"><i class="fas fa-percent fa-fw"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
 
-#
-To create these web pages I was inspired by several sites that deal with such things and I used webscraping using "robots.txt" to see where I have permission :)
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- End Header -->
+<!-- Start Landing -->
+<div class="landing">
+  <div class="container">
+    <div class="text">
+      <h1>Bine aţi Venit ! </h1>
+      <p> Locul unde lemnul prinde viață și devine o sursă de inspirație pentru casa și grădina ta!</p>
+    </div>
+  </div>
+  <a href="#articles" class="go-down">
+    <i class="fa-solid fa-circle-chevron-down fa-2x"></i>
+  </a>
+</div>
+<!-- End Landing -->
+<!-- Start Articles -->
+<div class="articles" id="articles">
+  <h2 class="main-title">Mese</h2>
+  <div class="container">
+    <div class="box">
+      <img src="../img/mese/m32.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m29.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m35.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m44.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m46.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m27.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m47.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m36.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m35.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m30.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m46.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m45.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m50.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m26.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m33.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m31.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m29.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="../img/mese/m43.jpeg" alt="img">
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="detail.html">Poveste</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!--<div class="fa-road-spikes"></div>-->
+<!-- End Articles -->
+<!-- Start Gallery -->
+<div class="gallery " id="gallery">
+  <h2 class="main-title">Corpuri Iluminat</h2>
+  <div class="container">
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/rz_new5.jpg" alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/rz_new1q.jpg" alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/rz_new1.jpg" alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/v7.jpg" alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/v7.jpg " alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="../img/veioze/v7.jpg" alt="img" onclick="window.location.href = 'veioze.html';"
+             style="cursor: pointer;">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Gallery -->
+<!-- Start Features -->
+<!--<div class="features" id="features">-->
+<!--  <h2 class="main-title">Features</h2>-->
+<!--  <div class="container">-->
+<!--    <div class="box">-->
+<!--      <div class="img-holder"><img src="" alt="img"></div>-->
+<!--      <h2>Quality</h2>-->
+<!--      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>-->
+<!--      <a href="#">More</a>-->
+<!--    </div>-->
+<!--    <div class="box">-->
+<!--      <div class="img-holder"><img src="" alt="img"></div>-->
+<!--      <h2>Time</h2>-->
+<!--      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>-->
+<!--      <a href="#">More</a>-->
+<!--    </div>-->
+<!--    <div class="box">-->
+<!--      <div class="img-holder"><img src="" alt="img"></div>-->
+<!--      <h2>Passion</h2>-->
+<!--      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>-->
+<!--      <a href="#">More</a>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!-- End Features -->
+<!-- Start Testimonials -->
+
+<!-- End Testimonials -->
+<!-- Start Team -->
+
+<!-- End accuracys -->
+<!-- Start Work Steps -->
+<div class="work-steps" id="work-steps">
+  <h2 class="main-title">Descriere</h2>
+  <div class="container">
+    <img src="../img/how-work.jpg" alt="img" class="image">
+    <div class="info">
+      <div class="box">
+        <img src="" alt="img">
+        <div class="text">
+          <h3>Business Analysis</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+            recusandae debitis vel
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="" alt="img">
+        <div class="text">
+          <h3>Architecture</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+            recusandae debitis vel
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../img/bancute/b3.jpeg" alt="img">
+        <div class="text">
+          <h3>Developement</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum
+            recusandae debitis vel
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Work Steps -->
+<!-- Start Events -->
+<!--<div class="events" id="events">-->
+<!--  <h2 class="main-title">Latest Events</h2>-->
+<!--  <div class="container">-->
+<!--    <img src="" alt="img">-->
+<!--    <div class="info">-->
+<!--      <div class="time">-->
+<!--        <div class="unit">-->
+<!--          <span class="days">15</span>-->
+<!--          <span>Days</span>-->
+<!--        </div>-->
+<!--        <div class="unit">-->
+<!--          <span class="hours">08</span>-->
+<!--          <span>Hours</span>-->
+<!--        </div>-->
+<!--        <div class="unit">-->
+<!--          <span class="minutes">45</span>-->
+<!--          <span>Minutes</span>-->
+<!--        </div>-->
+<!--        <div class="unit">-->
+<!--          <span class="seconds">55</span>-->
+<!--          <span>Seconds</span>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <h2 class="title">Wait Our Event 2023</h2>-->
+<!--      <p class="description">-->
+<!--        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci quam-->
+<!--        ratione aliquam excepturi nulla in harum, veritatis porro-->
+<!--      </p>-->
+<!--    </div>-->
+<!--    <div class="subscribe">-->
+<!--      <form>-->
+<!--        <input type="email" placeholder="Enter Your Email">-->
+<!--        <input type="submit" value="Subscribe">-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!-- End Events -->
+<!-- Start excerpt -->
+<div class="excerpt" id="excerpt">
+  <h2 class="main-title">Diverse</h2>
+  <div class="container">
+    <div class="box">
+      <img src="../img/jucarii/vj16.jpeg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box vertical">
+      <div class="label">Most Popular</div>
+      <img src="../img/jucarii/vj17.jpeg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/vz22.jpeg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box vertical">
+      <div class="label">Most Popular</div>
+      <img src="../img/jucarii/j5.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box vertical">
+      <div class="label">Most Popular</div>
+      <img src="../img/jucarii/j6.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j7.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box vertical">
+      <div class="label">Most Popular</div>
+      <img src="../img/jucarii/j8.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j9.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j10.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j11.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j12.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+    <div class="box">
+      <img src="../img/jucarii/j2.jpg" alt="img" onclick="window.location.href = 'diverse.html';">
+    </div>
+  </div>
+</div>
+<!-- End excerpt -->
+<!-- Start Videos -->
+<div class="videos" id="videos">
+  <h2 class="main-title">Prezentare Video</h2>
+  <div class="container">
+    <div class="holder">
+      <div class="list">
+        <div class="name fa-align-center">
+          Video
+          <i class="social"></i>
+        </div>
+        <ul>
+          <a href="https://www.youtube.com/@anca2868">
 
 
-import requests
+            <li>Masă din lemn de nuc cu răşină epoxidică verde<span>1:12</span></li>
+            <li>Masă din lemn de nuc masiv inserat în răşină epoxidică<span>2:45</span></li>
+            <li>Masă din lemn de nuc cu răşină epoxidică translucidă <span>1:27</span></li>
+            <li>Măsuţă de cafea din lemn de nuc cu răşină epoxidică<span>0:41</span></li>
+            <li>Măsuţă de cafea din lemn de nuc cu inseraţie de răşină<span>0:32</span></li>
+            <li>Masă din lemn de salcâm cu răşină epoxidică<span>0:39</span></li>
+          </a>
+        </ul>
+      </div>
 
-source = requests.get('https://www.blacktailstudio.com/blog/a-table-with-good-jeans').text
+    </div>
+  </div>
+</div>
+<!-- End Videos -->
+<!-- Start Stats -->
+<div class="spikes"></div>
+<div class="stats" id="stats">
+  <h2>Statistici</h2>
+  <div class="container">
+    <div class="box">
+      <i class="fa-solid fa-person fa-2x"></i>
+      <span class="number" data-goal="320">+50</span>
+      <span class="text">Clienţi</span>
+    </div>
+    <div class="box">
+      <i class="fa-brands fa-pagelines fa-2x"></i>
+      <span class="number" data-goal="210">+40</span>
+      <span class="text">Proiecte</span>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-earth-americas fa-2x"></i>
+      <span class="number" data-goal="84">8</span>
+      <span class="text">Ţări</span>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-diagram-project fa-2x"></i>
+      <span class="number" data-goal="400">+70</span>
+      <span class="text">Produse</span>
+    </div>
+  </div>
+</div>
+<!-- End Stats -->
+<!-- Start Contacts -->
+<div class="contacts" id="contacts">
+  <div class="image">
+    <div class="content">
+      <h2></h2>
+      <p>
 
-soup = BeautifulSoup(source, 'lxml')
-
-article = soup.find('article')
-
-print(article.prettify())
-# headline = article.h2.a.text
-# print(headline)
-
-# summary = article.find('div', class_='row sqs-row').p.text
-# print(summary)
+      </p>
+      <img src="" alt="">
+    </div>
+  </div>
+  <div class="form">
+    <div class="content">
+      <h2>Contact</h2>
+      <form>
+        <label>
+          <input class="input" type="text" placeholder="Your Name" name="name">
+        </label>
+        <label>
+          <input class="input" type="email" placeholder="Your Email" name="email">
+        </label>
+        <label>
+          <input class="input" type="text" placeholder="Your Phone" name="mobile">
+        </label>
+        <label>
+          <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+        </label>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- End Contacts -->
+<!-- Start Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="box">
+      <h3><i class=""></i>Woodzech</h3>
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/Hefzech/">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@anca2868">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text">
+      </p>
+    </div>
+    <!--        <div class="box">-->
+    <!--          <ul class="links">-->
+    <!--            <li><a href=""></a></li>-->
+    <!--            <li><a href="#"></a></li>-->
+    <!--            <li><a href="#"></a></li>-->
+    <!--            <li><a href="#"></a></li>-->
+    <!--            <li><a href="#"></a></li>-->
+    <!--          </ul>-->
+    <!--        </div>-->
+    <div class="box">
+      <div class="line">
+        <i class="fas fa-map-marker-alt fa-fw"></i>
+        <div class="info">Constanta, Romania, Stefan Cel Mare nr 30</div>
+      </div>
+      <div class="line">
+        <i class="far fa-clock fa-fw"></i>
+        <div class="info">Business Hours: From 08:00 To 18:00</div>
+      </div>
+      <div class="line">
+        <i class="fas fa-phone-volume fa-fw"></i>
+        <div class="info">
+          <span>0747066120</span>
+          <span>0771745487</span>
+        </div>
+      </div>
+    </div>
+    <div class="box footer-gallery">
+      <img src="../img/mese/m23.jpeg" alt="img">
+      <img src="../img/jucarii/j10.jpg" alt="img">
+      <img src="../img/veioze/rz_new1q.jpg" alt="img">
+      <img src="../img/mese/m32.jpeg" alt="img">
+      <img src="../img/jucarii/j6.jpg" alt="img">
+      <img src="../img/veioze/rz_new5.jpg" alt="img">
+      <img src="../img/mese/m28.jpeg" alt="img">
+      <img src="../img/jucarii/j9.jpg" alt="img">
+      <img src="../img/veioze/v2.jpg" alt="img">
+    </div>
+  </div>
+  <small>©
+    <script>document.write(new Date().getFullYear())</script>
+    Your company name. All Rights Reserved.</small>
+</div>
+<!-- End Footer -->
+<script src="../js/main.js"></script>
+</body>
+</html>
